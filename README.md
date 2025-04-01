@@ -4,6 +4,14 @@
 
 A specialized tool for MapleLegends players to manage their shop inventory, track item prices, and quickly identify items using OCR (Optical Character Recognition).
 
+## Demo
+
+https://github.com/tehboatler/ShopHelperv4/raw/main/demo_video/ShopHelperv4Demo.mp4
+
+*Click the link above to download and watch a demonstration of ShopHelperv4 in action*
+
+You can also view the demo video directly in the repository under the [demo_video](demo_video/) folder.
+
 ## Features
 
 - **OCR Item Recognition**: Press F7 while hovering over item text in-game to capture and identify items
