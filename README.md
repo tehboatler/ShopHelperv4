@@ -23,15 +23,34 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
    ```
 
 2. **Set Up Python Environment**:
-   - Python 3.12.0 is preferred (tested on 3.12.0 only)
-   - Create a virtual environment:
+   - Python 3.12.0 is required (the application has been tested with this version)
+   - There are several ways to manage your Python environment:
+
+     **Option A: Using pyenv (Recommended for managing multiple Python versions)**
      ```
+     # Install Python 3.12.0 using pyenv
+     pyenv install 3.12.0
+     
+     # Set local version for this project
+     pyenv local 3.12.0
+     ```
+
+     **Option B: Using venv (Built into Python)**
+     ```
+     # Create a virtual environment in the project folder
      python -m venv venv
+     
+     # Activate the virtual environment:
+     # On Windows:
      venv\Scripts\activate
+     
+     # On macOS/Linux:
+     # source venv/bin/activate
      ```
 
 3. **Install Dependencies**:
    ```
+   # Make sure you're using Python 3.12.0 (check with python --version)
    pip install -r requirements.txt
    ```
 
