@@ -6,7 +6,8 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
 
 ## Demo
 
-You can view a demo video directly in the repository under the [demo_video](demo_video/) folder.
+<video src="demo_video/Shophelperv4demo.webm" controls="controls" style="max-width: 730px;">
+</video>
 
 ## Features
 
