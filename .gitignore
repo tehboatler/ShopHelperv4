@@ -39,7 +39,6 @@ ENV/
 Thumbs.db
 
 # Project specific
-libs/
 *.bak
 
 # PaddleOCR models and large files

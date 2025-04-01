@@ -9,39 +9,21 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
 - **OCR Item Recognition**: Press F7 while hovering over item text in-game to capture and identify items
 - **Inventory Management**: Track your shop inventory, including stock levels and pricing
 - **Sales Ledger**: Record sales and track your shop's performance over time
-- **Price Recommendations**: Get suggestions for item pricing based on historical data
 - **Matched Item Display**: See instantly identified items in a fixed display area
 - **Dark Mode Interface**: Easy on the eyes during long gaming sessions
 
 ## Installation Guide
 
-### For End Users (Pre-built Executable)
-
-1. **Download the Latest Release**:
-   - Download the latest release ZIP file from the provided link
-   - Extract the ZIP file to a location of your choice
-
-2. **Run the Application**:
-   - Navigate to the extracted folder
-   - Run `MapleLegends_ShopHelper.exe`
-   - On first run, the application will download OCR models (approximately 20MB)
-
-3. **System Requirements**:
-   - Windows 10 or later
-   - 4GB RAM minimum (8GB recommended)
-   - 500MB free disk space
-   - Administrative privileges (for first run only, to download OCR models)
-
-### For Developers (From Source)
+### Running from Source (Recommended)
 
 1. **Clone the Repository**:
    ```
-   git clone <repository-url>
+   git clone https://github.com/tehboatler/ShopHelperv4.git
    cd ShopHelperv3
    ```
 
 2. **Set Up Python Environment**:
-   - Python 3.9 or later is required
+   - Python 3.12.0 is preferred (tested on 3.12.0 only)
    - Create a virtual environment:
      ```
      python -m venv venv
@@ -57,17 +39,6 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
    ```
    python app.py
    ```
-
-5. **Building the Executable**:
-   - Standard build (using QPT):
-     ```
-     python build_optimized.py
-     ```
-   - Comprehensive build (using PyInstaller with all dependencies):
-     ```
-     python build_collect_all.py
-     ```
-   - The executable will be created in the `dist` or `output` directory
 
 ## Usage Guide
 
@@ -115,17 +86,18 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
 2. **Application Crashes on Startup**:
    - Check if antivirus software is blocking the application
    - Try running as administrator
-   - Verify that all DLL files are present in the application folder
+   - Verify that all dependencies are installed correctly
 
 3. **Missing MKL Libraries**:
-   - If you see errors about missing MKL libraries, download them manually from:
+   - If you see errors about missing MKL libraries, they will be downloaded automatically on first run
+   - If automatic download fails, you can download them manually from:
      https://github.com/intel/mkl-dnn/releases/download/v0.21/mklml_win_2019.0.5.20190502.zip
    - Extract the DLL files to the `libs` folder in the application directory
 
 4. **Performance Issues**:
    - The application uses CPU-only mode for OCR by default
    - Close other resource-intensive applications for better performance
-   - Ensure your system meets the minimum requirements
+   - Ensure your system meets the minimum requirements (4GB RAM, Windows 10 or later)
 
 ### Getting Help
 
@@ -156,6 +128,7 @@ The application relies on several key libraries:
 - OpenCV and PIL for image processing
 - Keyboard and MSS for screen capture
 - FuzzyWuzzy for text matching
+- Matplotlib for charts and visualizations
 
 ## License
 
