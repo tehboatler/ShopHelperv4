@@ -27,13 +27,13 @@ This is to ensure the OCR doesn't exclude new unrecognized strings of text.
 #### 2. Hover over the scroll/item you want to match and press F7
 ![Hover and Press F7](demo_video/Pasted%20image%2020250401145013.png)
 
-This will generate a new log in your Recently Logged Items tab
+This will generate a new log in your Recently Logged Items tab. If you have not previously logged this item, it will display as false match with low confidence or no match at all.
 ![New Log](demo_video/Pasted%20image%2020250401145046.png)
 
 #### 3. Double-click the Matched Item cell and a dialogue will appear:
 ![Item Dialog](demo_video/Pasted%20image%2020250401145313.png)
 
-Ensure the Item string is correct and enter a price for the item
+Ensure the Item string is correct and enter a price for the item. This will add the new item to the local database.
 
 ### Adjusting the stock of items
 
