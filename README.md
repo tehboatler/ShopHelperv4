@@ -6,11 +6,7 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
 
 ## Demo
 
-https://github.com/tehboatler/ShopHelperv4/raw/main/demo_video/ShopHelperv4Demo.mp4
-
-*Click the link above to download and watch a demonstration of ShopHelperv4 in action*
-
-You can also view the demo video directly in the repository under the [demo_video](demo_video/) folder.
+You can view a demo video directly in the repository under the [demo_video](demo_video/) folder.
 
 ## Features
 
