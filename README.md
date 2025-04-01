@@ -48,7 +48,7 @@ Adjust stock as you see fit and it'll be reflected in your Inventory tab:
 ### Use Cases
 
 #### Quick Shop Restocking
-The prices you set can be set to be copied to clipboard after matching items. This makes it super easy to put stock up in your shop with the prices you've set.
+The prices of your items can be set to be copied to clipboard after matching items. This makes it easier to put stock up in your shop with the prices you've attributed.
 
 ![Quick Restocking](demo_video/Pasted%20image%2020250401150007.png)
 
