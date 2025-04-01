@@ -11,10 +11,8 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
 ## Features
 
 - **OCR Item Recognition**: Press F7 while hovering over item text in-game to capture and identify items
-- **Inventory Management**: Track your shop inventory, including stock levels and pricing
-- **Sales Ledger**: Record sales and track your shop's performance over time
-- **Matched Item Display**: See instantly identified items in a fixed display area
-- **Dark Mode Interface**: Easy on the eyes during long gaming sessions
+- **Inventory Management**: Track your inventory stock and prices
+- **Sales Ledger**: Record sales and track performance over time
 
 ## Usage Guide
 
