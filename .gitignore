@@ -1,0 +1,63 @@
+# Build folders
+build/
+dist/
+output/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# PyInstaller
+*.manifest
+*.spec
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Project specific
+libs/
+*.bak
+
+# PaddleOCR models and large files
+inference_results/
+paddleocr/
+paddle/
+paddle_inference/
+*.pdiparams
+*.pdmodel
+*.bin
+
+# Temporary files
+temp/
+tmp/
+
+# Large data files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.exe
