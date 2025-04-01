@@ -1,0 +1,70 @@
+{
+  "items": {
+    "Scroll for Shoes for Jump 10%": {
+      "price": 989999,
+      "added_date": 1742720556.5709596,
+      "stock": 0,
+      "last_updated": 1742720556.5709596
+    },
+    "Dark Scroll for Shield for Magic Att. 70%": {
+      "price": 9999999,
+      "added_date": 1742720771.7529852,
+      "stock": 0,
+      "last_updated": 1742720771.7529852
+    },
+    "Dark Scroll for Shield for Magic Att. 30%": {
+      "price": 8102938,
+      "added_date": 1742720855.9202452,
+      "stock": 0,
+      "last_updated": 1742720855.9202452
+    },
+    "Scroll for Overall Armor for INT 60%": {
+      "price": 4409999,
+      "added_date": 1742721340.990361,
+      "stock": 0,
+      "last_updated": 1742721340.990361
+    },
+    "Dark Scroll for Wand for Magic Att. 30%": {
+      "price": 5600000,
+      "added_date": 1742721660.9401412,
+      "stock": 0,
+      "last_updated": 1742721660.9401412
+    },
+    "Scroll for Claw for ATT 60%": {
+      "price": 449777,
+      "added_date": 1742721779.4287984,
+      "stock": 0,
+      "last_updated": 1742721779.4287984
+    },
+    "Scroll for Earring for INT 60%": {
+      "price": 999999,
+      "added_date": 1742721975.7767015,
+      "stock": 0,
+      "last_updated": 1742721975.7767015
+    },
+    "Dark Scroll for Shield for Weapon Att. 70%": {
+      "price": 3200000,
+      "added_date": 1742722096.8611205,
+      "stock": 0,
+      "last_updated": 1742722096.8611205
+    },
+    "Scroll for Overall Armor for DEX 60%": {
+      "price": 324987,
+      "added_date": 1742722174.2930262,
+      "stock": 0,
+      "last_updated": 1742722174.2930262
+    },
+    "Scroll for Gun for Attack 60%": {
+      "price": 94000,
+      "added_date": 1742722263.9305875,
+      "stock": 0,
+      "last_updated": 1742722263.9305875
+    },
+    "Scroll for Pet Equip. for Speed 60%": {
+      "price": 543219,
+      "added_date": 1742722505.6270344,
+      "stock": 0,
+      "last_updated": 1742722505.6270344
+    }
+  }
+}

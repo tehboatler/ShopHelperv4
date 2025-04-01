@@ -52,9 +52,27 @@ class ItemDatabase:
                 # Create empty database if loading fails
                 self.items = {}
         else:
-            # Create empty database if file doesn't exist
-            self.items = {}
-            self.save_items()
+            # If main database doesn't exist, try to load from template
+            template_path = "items_database_template.json"
+            if os.path.exists(template_path):
+                try:
+                    print(f"Main database not found. Loading from template: {template_path}")
+                    with open(template_path, 'r') as f:
+                        data = json.load(f)
+                        self.items = data.get('items', {})
+                    # Save to the main database file
+                    self.save_items()
+                    print(f"Created new database from template.")
+                except Exception as e:
+                    print(f"Error loading template database: {e}")
+                    # Create empty database if loading template fails
+                    self.items = {}
+                    self.save_items()
+            else:
+                # Create empty database if neither file exists
+                print("Creating new empty database.")
+                self.items = {}
+                self.save_items()
     
     def save_items(self):
         """Save the database to the JSON file"""

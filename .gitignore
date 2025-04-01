@@ -41,6 +41,10 @@ Thumbs.db
 # Project specific
 *.bak
 
+# JSON data files (except templates)
+*.json
+!items_database_template.json
+
 # PaddleOCR models and large files
 inference_results/
 paddleocr/
