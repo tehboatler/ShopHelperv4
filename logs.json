@@ -1,0 +1,22 @@
+{
+  "logs": [
+    {
+      "timestamp": 1742721386.5984385,
+      "ocr_text": "+Scroll for Shoes for Jump 10%",
+      "matched_item": "Scroll for Shoes for Jump 10%",
+      "price": {
+        "price": 999999,
+        "added_date": 1742720556.5709596
+      },
+      "match_score": 100
+    },
+    {
+      "timestamp": 1742721378.4559584,
+      "ocr_text": "Scroll for Pet Equip. for Speed 60%",
+      "matched_item": null,
+      "price": null,
+      "match_score": null
+    }
+  ],
+  "last_updated": 1742721386.5984385
+}

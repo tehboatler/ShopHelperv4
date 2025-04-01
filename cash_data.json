@@ -1,0 +1,149 @@
+{
+  "cash_balance": 855789186,
+  "transactions": [
+    {
+      "timestamp": 1743319387.1303344,
+      "item_name": "Added cash",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": 670799565,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743319477.9565425,
+      "item_name": "Testing",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": -1,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743324279.4225602,
+      "item_name": "2 hr goby session",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": 12784560,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743324433.6992333,
+      "item_name": "dropped 10 meso",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": -10,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743328415.8976433,
+      "item_name": "Set cash balance",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": 5870857,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743342717.2824075,
+      "item_name": "Goby Grind",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": 16734909,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743366490.647796,
+      "item_name": "Goby Grind",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": 8683679,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743366675.7164977,
+      "item_name": "Bought Potions",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": -11270000,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743368638.6721268,
+      "item_name": "Gach Equip Sell",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": 3198801,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743405461.6916106,
+      "item_name": "Gobies + Shop Profits",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": 141407701,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743421492.8454516,
+      "item_name": "Goby Grind",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": 16193624,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743421979.7609603,
+      "item_name": "Gach Run",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": 1190501,
+      "transaction_type": "cash"
+    },
+    {
+      "timestamp": 1743466807.6883616,
+      "item_name": "Bought Potions (corrected)",
+      "old_stock": 0,
+      "new_stock": 0,
+      "quantity": 0,
+      "price": 0,
+      "selling_price": null,
+      "value": -9805000,
+      "transaction_type": "cash"
+    }
+  ],
+  "last_updated": 1743469443.3204987
+}

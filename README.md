@@ -1,0 +1,168 @@
+# MapleLegends ShopHelper
+
+![MapleLegends ShopHelper](app_icon.png)
+
+A specialized tool for MapleLegends players to manage their shop inventory, track item prices, and quickly identify items using OCR (Optical Character Recognition).
+
+## Features
+
+- **OCR Item Recognition**: Press F7 while hovering over item text in-game to capture and identify items
+- **Inventory Management**: Track your shop inventory, including stock levels and pricing
+- **Sales Ledger**: Record sales and track your shop's performance over time
+- **Price Recommendations**: Get suggestions for item pricing based on historical data
+- **Matched Item Display**: See instantly identified items in a fixed display area
+- **Dark Mode Interface**: Easy on the eyes during long gaming sessions
+
+## Installation Guide
+
+### For End Users (Pre-built Executable)
+
+1. **Download the Latest Release**:
+   - Download the latest release ZIP file from the provided link
+   - Extract the ZIP file to a location of your choice
+
+2. **Run the Application**:
+   - Navigate to the extracted folder
+   - Run `MapleLegends_ShopHelper.exe`
+   - On first run, the application will download OCR models (approximately 20MB)
+
+3. **System Requirements**:
+   - Windows 10 or later
+   - 4GB RAM minimum (8GB recommended)
+   - 500MB free disk space
+   - Administrative privileges (for first run only, to download OCR models)
+
+### For Developers (From Source)
+
+1. **Clone the Repository**:
+   ```
+   git clone <repository-url>
+   cd ShopHelperv3
+   ```
+
+2. **Set Up Python Environment**:
+   - Python 3.9 or later is required
+   - Create a virtual environment:
+     ```
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+
+3. **Install Dependencies**:
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Application**:
+   ```
+   python app.py
+   ```
+
+5. **Building the Executable**:
+   - Standard build (using QPT):
+     ```
+     python build_optimized.py
+     ```
+   - Comprehensive build (using PyInstaller with all dependencies):
+     ```
+     python build_collect_all.py
+     ```
+   - The executable will be created in the `dist` or `output` directory
+
+## Usage Guide
+
+### First-Time Setup
+
+1. **OCR Model Download**:
+   - On first launch, the application will prompt you to download OCR models
+   - Click "Download Models" and wait for the process to complete
+   - This is a one-time download of approximately 20MB
+
+2. **Configure Settings**:
+   - Go to File → Settings to configure application preferences
+   - Adjust match threshold, tooltip settings, and other options as needed
+
+### Basic Usage
+
+1. **Capturing Items**:
+   - In-game, hover your cursor over item text
+   - Press F7 to capture the text
+   - The application will process the image, extract text, and attempt to match it to items in the database
+
+2. **Managing Inventory**:
+   - Use the Inventory tab to view and manage your shop items
+   - Add new items, update stock levels, and adjust prices
+   - Items that have never been sold will be highlighted in yellow
+
+3. **Tracking Sales**:
+   - When you sell an item, mark it as sold in the Inventory tab
+   - The sale will be recorded in the ledger with timestamp and price information
+   - View sales history in the Ledger tab
+
+4. **Exporting Data**:
+   - Go to File → Export Database to save your item database
+   - This creates a backup that can be imported later if needed
+
+## Troubleshooting
+
+### Common Issues
+
+1. **OCR Not Working**:
+   - Ensure the OCR models were downloaded successfully
+   - Try adjusting the preprocessing option in the settings
+   - Make sure the text is clear and visible when capturing
+
+2. **Application Crashes on Startup**:
+   - Check if antivirus software is blocking the application
+   - Try running as administrator
+   - Verify that all DLL files are present in the application folder
+
+3. **Missing MKL Libraries**:
+   - If you see errors about missing MKL libraries, download them manually from:
+     https://github.com/intel/mkl-dnn/releases/download/v0.21/mklml_win_2019.0.5.20190502.zip
+   - Extract the DLL files to the `libs` folder in the application directory
+
+4. **Performance Issues**:
+   - The application uses CPU-only mode for OCR by default
+   - Close other resource-intensive applications for better performance
+   - Ensure your system meets the minimum requirements
+
+### Getting Help
+
+If you encounter issues not covered in this guide, please:
+1. Check the known issues section in the repository
+2. Submit a detailed bug report including:
+   - Steps to reproduce the issue
+   - Error messages (if any)
+   - System specifications
+   - Screenshots if applicable
+
+## Development Information
+
+### Project Structure
+
+- `app.py` - Main application entry point
+- `ocr_utils.py` - OCR processing utilities
+- `item_database.py` - Item database management
+- `inventory_ui.py` - Inventory UI components
+- `ledger_ui.py` - Ledger UI components
+- `tooltip_overlay.py` - Tooltip overlay functionality
+
+### Dependencies
+
+The application relies on several key libraries:
+- PyQt6 for the GUI
+- PaddleOCR for text recognition
+- OpenCV and PIL for image processing
+- Keyboard and MSS for screen capture
+- FuzzyWuzzy for text matching
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- PaddleOCR for the OCR engine
+- PyQt6 for the GUI framework
+- All contributors and testers who have helped improve this application
