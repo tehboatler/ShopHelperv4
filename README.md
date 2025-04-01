@@ -19,7 +19,7 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
 1. **Clone the Repository**:
    ```
    git clone https://github.com/tehboatler/ShopHelperv4.git
-   cd ShopHelperv3
+   cd ShopHelperv4
    ```
 
 2. **Set Up Python Environment**:

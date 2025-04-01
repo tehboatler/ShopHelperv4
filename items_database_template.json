@@ -4,67 +4,356 @@
       "price": 989999,
       "added_date": 1742720556.5709596,
       "stock": 0,
-      "last_updated": 1742720556.5709596
+      "last_updated": 1743165334.6161187
     },
     "Dark Scroll for Shield for Magic Att. 70%": {
       "price": 9999999,
       "added_date": 1742720771.7529852,
       "stock": 0,
-      "last_updated": 1742720771.7529852
+      "last_updated": 1743196787.9840727
     },
     "Dark Scroll for Shield for Magic Att. 30%": {
       "price": 8102938,
       "added_date": 1742720855.9202452,
       "stock": 0,
-      "last_updated": 1742720855.9202452
+      "last_updated": 1743242386.068878
     },
     "Scroll for Overall Armor for INT 60%": {
       "price": 4409999,
       "added_date": 1742721340.990361,
       "stock": 0,
-      "last_updated": 1742721340.990361
+      "last_updated": 1743319526.4574432
     },
     "Dark Scroll for Wand for Magic Att. 30%": {
       "price": 5600000,
       "added_date": 1742721660.9401412,
-      "stock": 0,
-      "last_updated": 1742721660.9401412
+      "last_updated": 1743368270.6404061,
+      "stock": 0
     },
     "Scroll for Claw for ATT 60%": {
       "price": 449777,
       "added_date": 1742721779.4287984,
       "stock": 0,
-      "last_updated": 1742721779.4287984
+      "last_updated": 1743405217.8069663
     },
     "Scroll for Earring for INT 60%": {
       "price": 999999,
       "added_date": 1742721975.7767015,
-      "stock": 0,
-      "last_updated": 1742721975.7767015
+      "stock": 0
     },
     "Dark Scroll for Shield for Weapon Att. 70%": {
       "price": 3200000,
       "added_date": 1742722096.8611205,
       "stock": 0,
-      "last_updated": 1742722096.8611205
+      "last_updated": 1743170703.8460078
     },
     "Scroll for Overall Armor for DEX 60%": {
       "price": 324987,
       "added_date": 1742722174.2930262,
-      "stock": 0,
-      "last_updated": 1742722174.2930262
+      "last_updated": 1743342954.6987383,
+      "stock": 0
     },
     "Scroll for Gun for Attack 60%": {
       "price": 94000,
       "added_date": 1742722263.9305875,
-      "stock": 0,
-      "last_updated": 1742722263.9305875
+      "stock": 0
     },
     "Scroll for Pet Equip. for Speed 60%": {
       "price": 543219,
       "added_date": 1742722505.6270344,
+      "last_updated": 1743405274.8322961,
+      "stock": 0
+    },
+    "Scroll for Pet Equip. for Jump 60%": {
+      "price": 149999,
+      "added_date": 1742722549.239341,
+      "stock": 0
+    },
+    "Dark Scroll for Bottomwear for DEX 30%": {
+      "price": 2987654,
+      "added_date": 1742722623.1237805,
+      "stock": 0
+    },
+    "Dark scroll for Gloves for ATT 30%": {
+      "price": 19013940,
+      "added_date": 1742723006.1114404,
+      "last_updated": 1743242346.653433,
+      "stock": 0
+    },
+    "Dark scroll for Two-handled Axe for ATT 30%": {
+      "price": 149999,
+      "added_date": 1742723397.627716,
+      "last_updated": 1742723546.5241334,
+      "stock": 0
+    },
+    "Dark scroll for Two-handed Sword for ATT 30%": {
+      "price": 3168000,
+      "added_date": 1742723583.9801612,
       "stock": 0,
-      "last_updated": 1742722505.6270344
+      "last_updated": 1743421930.867332
+    },
+    "Dark Scroll for Helmet for INT 70%": {
+      "price": 3947777,
+      "added_date": 1742723683.866107,
+      "stock": 0,
+      "last_updated": 1743405340.344761
+    },
+    "Dark scroll for Earring for INT 30%": {
+      "price": 13709299,
+      "added_date": 1742724023.8353717,
+      "last_updated": 1743405357.879582,
+      "stock": 0
+    },
+    "Dark Scroll for Helmet for INT 30%": {
+      "price": 1967777,
+      "added_date": 1742724267.688086,
+      "last_updated": 1743242829.8616986,
+      "stock": 0
+    },
+    "Dark Scroll for Eye Accessory for INT 30%": {
+      "price": 2957777,
+      "added_date": 1742724397.9283197,
+      "stock": 0,
+      "last_updated": 1743166612.0593314
+    },
+    "Dark Scroll for Topwear for LUK 30%": {
+      "price": 3947777,
+      "added_date": 1742724423.5909681,
+      "stock": 0,
+      "last_updated": 1743242366.1043081
+    },
+    "Scroll for Overall Armor for INT 10%": {
+      "price": 2077777,
+      "added_date": 1742724472.622834,
+      "stock": 0,
+      "last_updated": 1743166580.8587196
+    },
+    "Dark Scroll for Claw for ATT 70%": {
+      "price": 399876,
+      "added_date": 1742724927.1748166,
+      "stock": 0,
+      "last_updated": 1743471697.9215634
+    },
+    "Dark scroll for Claw for ATT 30%": {
+      "price": 8876543,
+      "added_date": 1742724975.9208798,
+      "stock": 0
+    },
+    "Dark Scroll for Helmet for Accuracy 30%": {
+      "price": 1384777,
+      "added_date": 1742723868.4768696,
+      "last_updated": 1743166634.2259305,
+      "stock": 0
+    },
+    "Dark Scroll for Topwear for LUK 70%": {
+      "price": 1780777,
+      "added_date": 1742723973.1344464,
+      "last_updated": 1743166497.0002367,
+      "stock": 0
+    },
+    "Dark scroll for Bow for ATT 30%": {
+      "price": 3947777,
+      "added_date": 1742723994.0505629,
+      "last_updated": 1743166638.6260722,
+      "stock": 0
+    },
+    "Clean Slate Scroll 20%": {
+      "price": 4498765,
+      "added_date": 1742726045.3097484,
+      "stock": 0,
+      "last_updated": 1743368216.8025732
+    },
+    "Dark scroll for Earring for DEX 70%": {
+      "price": 3333333,
+      "added_date": 1742726147.8854232,
+      "stock": 0
+    },
+    "Dark scroll for Shoes for Jump 30%": {
+      "price": 3987654,
+      "added_date": 1742726181.79023,
+      "last_updated": 1742726189.3035772,
+      "stock": 0
+    },
+    "Scroll for Earring for DEX 60%": {
+      "price": 2898765,
+      "added_date": 1742726308.396718,
+      "last_updated": 1742726374.9301498,
+      "stock": 0
+    },
+    "Scroll for Overall Armor for INT 100%": {
+      "price": 1298765,
+      "added_date": 1742726413.6300836,
+      "last_updated": 1742726502.063435,
+      "stock": 0
+    },
+    "Dark Scroll for Face Accessory for HP 30%": {
+      "price": 500000,
+      "added_date": 1743154557.2401655,
+      "stock": 0
+    },
+    "Dark Scroll for Bottomwear for DEX 70%": {
+      "price": 3762000,
+      "added_date": 1743154622.7334108,
+      "stock": 0,
+      "last_updated": 1743166563.74396
+    },
+    "Scroll for Cape for INT 60%": {
+      "price": 799999,
+      "added_date": 1743154695.4233549,
+      "stock": 0
+    },
+    "Dark Scroll for Face Accessory for Avoidability 3": {
+      "price": 4949999,
+      "added_date": 1743154751.2123656,
+      "stock": 0,
+      "last_updated": 1743166643.3930995
+    },
+    "Clean Slate Scroll 1%": {
+      "price": 150000,
+      "added_date": 1743154866.4546208,
+      "stock": 0
+    },
+    "Dark scroll for Gloves for ATT 70%": {
+      "price": 6433777,
+      "added_date": 1743155122.4806147,
+      "last_updated": 1743166575.1023743,
+      "stock": 0
+    },
+    "Dark scroll for Overall Armor for INT 70%": {
+      "price": 2475000,
+      "added_date": 1743155284.4485765,
+      "stock": 0,
+      "last_updated": 1743166590.3079653
+    },
+    "Scroll for Eye Accessory for INT 10%": {
+      "price": 2987654,
+      "added_date": 1743155583.492996,
+      "stock": 0,
+      "last_updated": 1743368513.959584
+    },
+    "Dark scroll for Earring for INT 70%": {
+      "price": 999999,
+      "added_date": 1743155683.7276278,
+      "stock": 0,
+      "last_updated": 1743331141.8717616
+    },
+    " Brown Work Gloves": {
+      "price": 47025000,
+      "added_date": 1743156041.0251858,
+      "stock": 0,
+      "last_updated": 1743166396.9713519
+    },
+    "Dark Scroll for Shield for Weapon Att. 30%": {
+      "price": 2876543,
+      "added_date": 1743165605.166539,
+      "stock": 0,
+      "last_updated": 1743241510.9547148
+    },
+    "Dark Scroll for Gloves for Magic Att. 70%": {
+      "price": 2098765,
+      "added_date": 1743166040.5242357,
+      "stock": 0,
+      "last_updated": 1743166051.3020122
+    },
+    "Scroll for Gloves for Magic Att. 60%": {
+      "price": 1967777,
+      "added_date": 1743166122.9413004,
+      "stock": 0,
+      "last_updated": 1743166126.9754295
+    },
+    "Dark scroll for Wand for Magic Att. 70%": {
+      "price": 999999,
+      "added_date": 1743166178.813872,
+      "stock": 0,
+      "last_updated": 1743166186.3154585
+    },
+    "Black Crystal": {
+      "price": 24999,
+      "added_date": 1743242028.5458882,
+      "stock": 0,
+      "last_updated": 1743242105.9868898
+    },
+    "LUK Crystal": {
+      "price": 144987,
+      "added_date": 1743242073.9469028,
+      "stock": 0,
+      "last_updated": 1743242118.755034
+    },
+    "Scroll for Helmet for DEX 60%": {
+      "price": 4937777,
+      "added_date": 1743242713.0751226,
+      "stock": 0,
+      "last_updated": 1743242909.7353425
+    },
+    "Dark Scroll for Helmet for DEX 30%": {
+      "price": 2498765,
+      "added_date": 1743242846.1807446,
+      "stock": 0,
+      "last_updated": 1743366125.7182655
+    },
+    "Power Elixir": {
+      "price": 6500,
+      "added_date": 1743318614.9245293,
+      "stock": 0
+    },
+    "White Scroll": {
+      "price": 220000000,
+      "added_date": 1743319856.4167244,
+      "stock": 0,
+      "last_updated": 1743319859.5197089
+    },
+    "Dark scroll for Topwear for STR 30%": {
+      "price": 1099999,
+      "added_date": 1743330414.6498573,
+      "stock": 0,
+      "last_updated": 1743330434.4864614
+    },
+    "Scroll for One-Handed BW for ATT 100%": {
+      "price": 10,
+      "added_date": 1743342867.99487,
+      "stock": 0
+    },
+    "Dark scroll for Shoes for Jump 70%": {
+      "price": 499999,
+      "added_date": 1743367639.6942582,
+      "stock": 0
+    },
+    "Scroll for Earring for INT 10%": {
+      "price": 2222222,
+      "added_date": 1743367718.5934982,
+      "stock": 0,
+      "last_updated": 1743368254.7936907
+    },
+    "Dark scroll for Overall Armor for DEX 30%": {
+      "price": 3333333,
+      "added_date": 1743367865.419743,
+      "stock": 0,
+      "last_updated": 1743368233.7839084
+    },
+    "Scroll for Eye Accessory for INT 100%": {
+      "price": 4444444,
+      "added_date": 1743367891.5043914,
+      "stock": 0,
+      "last_updated": 1743368262.8697248
+    },
+    "Dark Scroll for Knuckle for Attack 30%": {
+      "price": 1999999,
+      "added_date": 1743368062.7043781,
+      "stock": 0,
+      "last_updated": 1743368278.8341684
+    },
+    "Dark scroll for Cape for INT 70%": {
+      "price": 1999999,
+      "added_date": 1743368307.5128717,
+      "stock": 0,
+      "last_updated": 1743421927.3185508
+    },
+    "Scroll for Earring for DEX 10%": {
+      "price": 1099999,
+      "added_date": 1743421649.9422092,
+      "stock": 0,
+      "last_updated": 1743421933.6218557
     }
-  }
+  },
+  "last_updated": 1743471697.9237983
 }
