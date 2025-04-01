@@ -16,6 +16,56 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
 - **Matched Item Display**: See instantly identified items in a fixed display area
 - **Dark Mode Interface**: Easy on the eyes during long gaming sessions
 
+## Usage Guide
+
+### Adding New Items To Your Database
+
+#### 1. Set Match Confidence Threshold to 0%
+![Set Match Confidence](demo_video/Pasted%20image%2020250401144651.png)
+
+This is to ensure the OCR doesn't exclude new unrecognized strings of text.
+*(note: when not adding new items to the database, its better quality of life to have the setting sit on 90%, so remember to switch it back!)*
+
+#### 2. Hover over the scroll/item you want to match and press F7
+![Hover and Press F7](demo_video/Pasted%20image%2020250401145013.png)
+
+This will generate a new log in your Recently Logged Items tab
+![New Log](demo_video/Pasted%20image%2020250401145046.png)
+
+#### 3. Double-click the Matched Item cell and a dialogue will appear:
+![Item Dialog](demo_video/Pasted%20image%2020250401145313.png)
+
+Ensure the Item string is correct and enter a price for the item
+
+### Adjusting the stock of items
+
+Right clicking the row of the item, or double-clicking the stock cell of an item will bring up a Stock Adjustment dialogue:
+
+![Stock Adjustment 1](demo_video/Pasted%20image%2020250401145742.png)
+![Stock Adjustment 2](demo_video/Pasted%20image%2020250401145753.png)
+
+Adjust stock as you see fit and it'll be reflected in your Inventory tab:
+![Inventory Tab](demo_video/Pasted%20image%2020250401145832.png)
+
+### Use Cases
+
+#### Quick Shop Restocking
+The prices you set can be set to be copied to clipboard after matching items. This makes it super easy to put stock up in your shop with the prices you've set.
+
+![Quick Restocking](demo_video/Pasted%20image%2020250401150007.png)
+
+#### Tracking Last Sold Dates and Adjusting Prices for Sellability
+Items that you've never logged as sold will appear in yellow text along with the price they last sold at. 
+![Tracking Sales](demo_video/Pasted%20image%2020250401150155.png)
+
+For convenience, you can decrement the price from a context menu by right clicking the item in the inventory tab:
+![Price Adjustment 1](demo_video/Pasted%20image%2020250401150433.png)
+![Price Adjustment 2](demo_video/Pasted%20image%2020250401150444.png)
+
+### Sweaty Ledger Stuff
+Explore this tab at your own leisure if you're sweaty enough:
+![Ledger](demo_video/Pasted%20image%2020250401150617.png)
+
 ## Installation Guide
 
 ### Running from Source (Recommended)
@@ -62,40 +112,6 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
    ```
    python app.py
    ```
-
-## Usage Guide
-
-### First-Time Setup
-
-1. **OCR Model Download**:
-   - On first launch, the application will prompt you to download OCR models
-   - Click "Download Models" and wait for the process to complete
-   - This is a one-time download of approximately 20MB
-
-2. **Configure Settings**:
-   - Go to File → Settings to configure application preferences
-   - Adjust match threshold, tooltip settings, and other options as needed
-
-### Basic Usage
-
-1. **Capturing Items**:
-   - In-game, hover your cursor over item text
-   - Press F7 to capture the text
-   - The application will process the image, extract text, and attempt to match it to items in the database
-
-2. **Managing Inventory**:
-   - Use the Inventory tab to view and manage your shop items
-   - Add new items, update stock levels, and adjust prices
-   - Items that have never been sold will be highlighted in yellow
-
-3. **Tracking Sales**:
-   - When you sell an item, mark it as sold in the Inventory tab
-   - The sale will be recorded in the ledger with timestamp and price information
-   - View sales history in the Ledger tab
-
-4. **Exporting Data**:
-   - Go to File → Export Database to save your item database
-   - This creates a backup that can be imported later if needed
 
 ## Troubleshooting
 
