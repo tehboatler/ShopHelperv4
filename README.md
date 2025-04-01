@@ -6,7 +6,7 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
 
 ## Demo
 
-![Demo Video](demo_video/Shophelperv4demo.mp4)
+![Demo Video](demo_video/Shophelperv4demo.webm)
 
 ## Features
 
