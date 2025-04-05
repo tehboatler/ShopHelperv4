@@ -11,10 +11,8 @@ A specialized tool for MapleLegends players to manage their shop inventory, trac
 ## Features
 
 - **OCR Item Recognition**: Press F7 while hovering over item text in-game to capture and identify items
-- **Inventory Management**: Track your shop inventory, including stock levels and pricing
-- **Sales Ledger**: Record sales and track your shop's performance over time
-- **Matched Item Display**: See instantly identified items in a fixed display area
-- **Dark Mode Interface**: Easy on the eyes during long gaming sessions
+- **Inventory Management**: Track your inventory stock and prices
+- **Sales Ledger**: Record sales and track performance over time
 
 ## Usage Guide
 
@@ -29,13 +27,13 @@ This is to ensure the OCR doesn't exclude new unrecognized strings of text.
 #### 2. Hover over the scroll/item you want to match and press F7
 ![Hover and Press F7](demo_video/Pasted%20image%2020250401145013.png)
 
-This will generate a new log in your Recently Logged Items tab
+This will generate a new log in your Recently Logged Items tab. If you have not previously logged this item, it will display as false match with low confidence or no match at all.
 ![New Log](demo_video/Pasted%20image%2020250401145046.png)
 
 #### 3. Double-click the Matched Item cell and a dialogue will appear:
 ![Item Dialog](demo_video/Pasted%20image%2020250401145313.png)
 
-Ensure the Item string is correct and enter a price for the item
+Ensure the Item string is correct and enter a price for the item. This will add the new item to the local database.
 
 ### Adjusting the stock of items
 
@@ -50,7 +48,7 @@ Adjust stock as you see fit and it'll be reflected in your Inventory tab:
 ### Use Cases
 
 #### Quick Shop Restocking
-The prices you set can be set to be copied to clipboard after matching items. This makes it super easy to put stock up in your shop with the prices you've set.
+The prices of your items can be set to be copied to clipboard after matching items. This makes it easier to put stock up in your shop with the prices you've attributed.
 
 ![Quick Restocking](demo_video/Pasted%20image%2020250401150007.png)
 
